@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<title>Mayra's Practice Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+  <style>
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ </style> 
+<body>
 
-You can use the [editor on GitHub](https://github.com/mayraleem/practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:100%">
+  <img class="w3-image" src="https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg" alt="Me" height="250" width="100%">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Matt Applegate</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">Matt Applegate</h5>
+    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
 
-### Markdown
+  <!-- Images (Portfolio) -->
+  <img src="https://images.pexels.com/photos/4326894/pexels-photo-4326894.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Ocean" class="w3-image" width="1000" height="500">
+  <img src="https://images.pexels.com/photos/4443639/pexels-photo-4443639.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Ocean II" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="https://images.pexels.com/photos/6382313/pexels-photo-6382313.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Falls" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="https://images.pexels.com/photos/2598042/pexels-photo-2598042.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Skies" class="w3-image w3-margin-top" width="1000" height="500">
+  <img src="https://images.pexels.com/photos/1467181/pexels-photo-1467181.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Mountains" class="w3-image w3-margin-top" width="1000" height="500">
+  <br>
+  <br>
+  <div class="video-responsive">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/tdvOdJ-4tGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <form action="https://www.w3schools.com//action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 
-```markdown
-Syntax highlighted code block
+  </div>
 
-# Header 1
-## Header 2
-### Header 3
+<!-- End page content -->
+</div>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mayraleem/practice/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
