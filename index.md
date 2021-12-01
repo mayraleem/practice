@@ -24,10 +24,10 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-center" style="max-width:100%">
-  <img class="w3-image" src="https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg" alt="Me" height="250" width="100%">
+  <img class="w3-image" src="https://images.pexels.com/photos/2744849/pexels-photo-2744849.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Me" height="250" width="100%">
   <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Matt Applegate</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">Matt Applegate</h5>
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Mayralee Martinez</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">Molloy College</h5>
     <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
   </div>
   
